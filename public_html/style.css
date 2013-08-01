@@ -1,0 +1,92 @@
+
+body{
+    background-image: url(Blue.jpg);
+    font-family: 'Verdana';
+    padding: 0px;
+    margin: 30px;
+}
+
+.inputField{
+    border: 2px solid #1100FF;
+    width: 200px;
+    background: transparent;
+    color: #ffffff;
+    padding: 3px;
+}
+
+.buttonStyle{
+    margin-top: 10px;
+    border: 0px;
+    border: 2px solid #1100FF;
+    width: 200px;
+    background: #ffffff;
+    color: #1100FF;
+    padding: 3px;
+    cursor: pointer;
+    height: 28px;
+}
+
+#menuInit{
+    display: none;
+}
+#menuRegister{
+    display: none;
+}
+
+.eachItemMenu{
+    float: left;
+    margin-right: 50px;
+}.eachItemMenu p{
+    color: #1100FF;
+}.eachItemMenu p:hover{
+    color: #0000cc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 1.3em;
+}
+h3{
+    font-size: 1.3em;
+}
+
+
+article{
+    clear: both;
+    min-height: 400px;
+}
+#registerUser{
+    display: none;
+    margin-bottom: 20px;
+    border: 2px solid #1100FF;
+    padding: 10px;
+}
+
+#loginUser{
+    display: none;
+    margin-bottom: 20px;
+    border: 2px solid #1100FF;
+    padding: 10px;
+}
+
+#uploadImage{
+    display: none;
+    margin-bottom: 20px;
+    border: 2px solid #1100FF;
+    padding: 10px;
+}
+
+#listFiles{
+
+}#listFiles a{
+    color: #333333;
+}
+
+footer{
+    font-size: 0.8em;
+}
